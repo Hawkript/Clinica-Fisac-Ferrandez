@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descarga Mi Mascota Online, la app de la Clínica Veterinaria Fisac Ferrández. Gestiona citas, consulta historiales médicos y recibe recordatorios desde tu móvil.">
+    <meta name="keywords" content="app veterinaria Burgos, Mi Mascota Online, gestión citas veterinarias, historial médico mascotas, app móvil veterinaria">
+    <meta name="author" content="Clínica Veterinaria Fisac Ferrández">
+    <meta name="robots" content="index, follow">
+    <title>Mi Mascota Online | App Móvil - Clínica Veterinaria Fisac Ferrández</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="IMG/favicon.ico">
+    <link rel="canonical" href="https://www.clinicafisacferrandez.com/mi-mascota-online.html">
+</head>
+<body>
+    <!-- Botón Accesibilidad -->
+    <button class="accessibility-btn" aria-label="Herramientas de accesibilidad" title="Accesibilidad">
+        ♿
+    </button>
+    <div class="accessibility-menu" role="dialog" aria-labelledby="accessibility-title">
+        <div class="accessibility-header">
+            <h3 id="accessibility-title">Herramientas de accesibilidad</h3>
+            <button class="accessibility-close" aria-label="Cerrar">&times;</button>
+        </div>
+        <div class="accessibility-options">
+            <button id="increase-font" class="accessibility-option">
+                <span class="icon">🔍+</span> <span>Aumentar texto</span>
+            </button>
+            <button id="decrease-font" class="accessibility-option">
+                <span class="icon">🔍-</span> <span>Disminuir texto</span>
+            </button>
+            <button id="grayscale" class="accessibility-option">
+                <span class="icon">⚫</span> <span>Escala de grises</span>
+            </button>
+            <button id="high-contrast" class="accessibility-option">
+                <span class="icon">◐</span> <span>Alto contraste</span>
+            </button>
+            <button id="negative-contrast" class="accessibility-option">
+                <span class="icon">◑</span> <span>Contraste negativo</span>
+            </button>
+            <button id="light-background" class="accessibility-option">
+                <span class="icon">☀️</span> <span>Fondo claro</span>
+            </button>
+            <button id="underline-links" class="accessibility-option">
+                <span class="icon">_</span> <span>Subrayar enlaces</span>
+            </button>
+            <button id="readable-font" class="accessibility-option">
+                <span class="icon">Aa</span> <span>Fuente legible</span>
+            </button>
+            <button id="reset-accessibility" class="accessibility-option reset-btn">
+                <span class="icon">↺</span> <span>Restablecer</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">Clínica Fisac Ferrández</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nuestros-servicios.html">Nuestros servicios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="quienes-somos.html">Quiénes somos</a></li>
+                <li><a href="instalaciones.html">Instalaciones</a></li>
+                <li><a href="mi-mascota-online.html">Mi mascota online</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="section" style="margin-top: 80px; padding-top: 4rem;">
+            <div class="container text-center">
+                <div style="font-size: 8rem; margin-bottom: 2rem; animation: pulse 2s infinite;">📱</div>
+                <h1 data-icon="📱" style="font-size: clamp(2.5rem, 6vw, 4.5rem); margin-bottom: 1.5rem;">Mi Mascota Online</h1>
+                <p style="font-size: 1.4rem; max-width: 800px; margin: 0 auto 3rem; line-height: 1.8; color: var(--text-light);">
+                    La forma más cómoda de gestionar la salud de tu mascota desde tu smartphone
+                </p>
+
+                <div class="card" style="max-width: 700px; margin: 0 auto; background: var(--gradient-primary); color: white; padding: 3rem;">
+                    <h2 style="color: white; font-size: 3rem; margin-bottom: 1rem;">¡DESCÁRGATELA YA!</h2>
+                    <p style="font-size: 1.3rem; margin-bottom: 2rem; color: rgba(255,255,255,0.95);">
+                        Solicita usuario y contraseña a nuestro personal veterinario
+                    </p>
+
+                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+                        <a href="contacto.html" class="btn" style="background: white; color: var(--primary-color); border: none;">
+                            📧 Más información
+                        </a>
+                        <a href="https://apps.apple.com/es/app/mi-veterinario/id973183563" class="btn" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">
+                            🍎 Apple Store
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=es.winvet.mivet&hl=es&gl=US" class="btn" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">
+                            🤖 Google Play
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Funcionalidades -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-icon="⚡">Funcionalidades de la App</h2>
+                    <p class="section-subtitle">Todo lo que necesitas para cuidar de tu mascota al alcance de tu mano</p>
+                </div>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon">📅</div>
+                        <h3>Gestión de Citas</h3>
+                        <p>Solicita, modifica o cancela citas de forma rápida y sencilla desde tu móvil. Recibe confirmaciones instantáneas y recordatorios automáticos para que nunca olvides una consulta veterinaria.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">📋</div>
+                        <h3>Historial Médico Completo</h3>
+                        <p>Accede en cualquier momento al historial clínico completo de tu mascota: vacunas, desparasitaciones, tratamientos, cirugías, análisis y diagnósticos. Toda la información médica al alcance de tu mano.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">💉</div>
+                        <h3>Recordatorios Automáticos</h3>
+                        <p>Recibe notificaciones push recordándote las próximas vacunas, desparasitaciones, revisiones periódicas y administración de medicamentos. Nunca más te olvidarás de los cuidados preventivos.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">📄</div>
+                        <h3>Informes y Resultados</h3>
+                        <p>Consulta informes de consultas, resultados de análisis y diagnósticos por imagen directamente en la app. Descarga y comparte documentos en formato PDF cuando lo necesites.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">💬</div>
+                        <h3>Chat con Veterinarios</h3>
+                        <p>Resuelve dudas rápidas mediante nuestro sistema de mensajería. Aunque no sustituye la consulta presencial, es ideal para preguntas sobre medicación, cuidados postoperatorios o consultas generales.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">🐾</div>
+                        <h3>Múltiples Mascotas</h3>
+                        <p>Gestiona la información de todas tus mascotas desde una única cuenta. Perfecto para familias con varios animales, mantén organizado el cuidado de cada uno de ellos.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">📸</div>
+                        <h3>Galería de Fotos</h3>
+                        <p>Sube y almacena fotos de tu mascota. Especialmente útil para hacer seguimiento de evolución de heridas, cambios en la piel o compartir imágenes con el veterinario antes de la consulta.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">🔔</div>
+                        <h3>Notificaciones Personalizadas</h3>
+                        <p>Configura recordatorios personalizados para medicación, alimentación especial, ejercicio o cualquier cuidado específico que requiera tu mascota según indicaciones veterinarias.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">💳</div>
+                        <h3>Gestión de Pagos</h3>
+                        <p>Consulta el historial de facturas, realiza pagos online de forma segura y accede a presupuestos pendientes. Todo tu historial financiero organizado y accesible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cómo Funciona -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-icon="🚀">¿Cómo Empezar?</h2>
+                    <p class="section-subtitle">Solo 4 pasos para comenzar a usar Mi Mascota Online</p>
+                </div>
+
+                <div class="card-grid">
+                    <div class="card text-center">
+                        <div style="width: 80px; height: 80px; background: var(--gradient-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; margin: 0 auto 1.5rem; box-shadow: var(--shadow-lg);">1</div>
+                        <h3>Visita la Clínica</h3>
+                        <p>Acude a nuestra clínica o llámanos por teléfono para solicitar tu acceso a la aplicación Mi Mascota Online.</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <div style="width: 80px; height: 80px; background: var(--gradient-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; margin: 0 auto 1.5rem; box-shadow: var(--shadow-lg);">2</div>
+                        <h3>Recibe tus Credenciales</h3>
+                        <p>Nuestro personal te proporcionará un usuario y contraseña únicos para acceder de forma segura a la información de tu mascota.</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <div style="width: 80px; height: 80px; background: var(--gradient-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; margin: 0 auto 1.5rem; box-shadow: var(--shadow-lg);">3</div>
+                        <h3>Descarga la App</h3>
+                        <p>Descarga Mi Mascota Online desde App Store o Google Play Store en tu dispositivo móvil o tablet.</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <div style="width: 80px; height: 80px; background: var(--gradient-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; margin: 0 auto 1.5rem; box-shadow: var(--shadow-lg);">4</div>
+                        <h3>¡Listo para Usar!</h3>
+                        <p>Inicia sesión con tus credenciales y comienza a disfrutar de todas las funcionalidades de la aplicación.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ventajas -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-icon="✨">Ventajas de Mi Mascota Online</h2>
+                </div>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon">⏰</div>
+                        <h3>Ahorra Tiempo</h3>
+                        <p>Gestiona citas y consultas sin necesidad de llamar por teléfono. Solicita citas 24/7 desde cualquier lugar y recibe confirmación inmediata de disponibilidad.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">📱</div>
+                        <h3>Siempre Accesible</h3>
+                        <p>Toda la información médica de tu mascota disponible en tu bolsillo. Especialmente útil en situaciones de urgencia o cuando visitas otros veterinarios.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">🔐</div>
+                        <h3>Seguridad y Privacidad</h3>
+                        <p>Tus datos están protegidos con encriptación de nivel bancario. Cumplimiento total con la normativa de protección de datos y privacidad RGPD.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">🌍</div>
+                        <h3>Acceso Multiplataforma</h3>
+                        <p>Disponible para iOS y Android. Sincronización automática entre todos tus dispositivos para acceder desde donde quieras.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">📊</div>
+                        <h3>Seguimiento Completo</h3>
+                        <p>Gráficos y estadísticas sobre el peso, medicaciones y evolución de tu mascota. Visualiza tendencias y comparte información con tu veterinario.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">🎯</div>
+                        <h3>Personalización</h3>
+                        <p>Configura la app según tus necesidades: frecuencia de recordatorios, tipos de notificaciones y preferencias de comunicación con la clínica.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Requisitos -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-icon="💻">Requisitos del Sistema</h2>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; max-width: 900px; margin: 0 auto;">
+                    <div class="card">
+                        <h3 style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                            <span style="font-size: 3rem;">🍎</span>
+                            iOS (iPhone/iPad)
+                        </h3>
+                        <ul style="line-height: 2; margin-left: 1.5rem;">
+                            <li>iOS 13.0 o superior</li>
+                            <li>Compatible con iPhone, iPad y iPod touch</li>
+                            <li>150 MB de espacio libre</li>
+                            <li>Conexión a internet</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                            <span style="font-size: 3rem;">🤖</span>
+                            Android
+                        </h3>
+                        <ul style="line-height: 2; margin-left: 1.5rem;">
+                            <li>Android 8.0 o superior</li>
+                            <li>Compatible con smartphones y tablets</li>
+                            <li>150 MB de espacio libre</li>
+                            <li>Conexión a internet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-icon="❓">Preguntas Frecuentes</h2>
+                </div>
+
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;">¿La app tiene algún coste?</h3>
+                        <p>La descarga y uso de la aplicación es completamente gratuita para todos los clientes de la Clínica Veterinaria Fisac Ferrández.</p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;">¿Puedo gestionar varias mascotas?</h3>
+                        <p>Sí, desde una única cuenta puedes gestionar la información y citas de todas tus mascotas sin límite.</p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;">¿Es segura la app?</h3>
+                        <p>Absolutamente. Utilizamos encriptación de datos de nivel bancario y cumplimos con todas las normativas de protección de datos RGPD. Tu información está completamente segura.</p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;">¿Puedo pedir citas de urgencia?</h3>
+                        <p>Para urgencias recomendamos llamar directamente al teléfono de urgencias 689 56 91 71 para atención inmediata. La app es ideal para citas programadas.</p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;">¿Qué hago si olvido mi contraseña?</h3>
+                        <p>Puedes recuperar tu contraseña desde la propia app con tu email registrado, o contactar con nuestra recepción para restablecer el acceso.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section" style="background: var(--gradient-primary); color: white;">
+            <div class="container text-center">
+                <h2 data-icon="📱" style="color: white; -webkit-text-fill-color: white; margin-bottom: 1rem;">Solicita tu Acceso Ahora</h2>
+                <p style="font-size: 1.3rem; margin-bottom: 2rem; color: rgba(255,255,255,0.95);">
+                    Rellena el formulario de contacto y nos pondremos en contacto contigo para proporcionarte tus credenciales de acceso
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="contacto.html" class="btn" style="background: white; color: var(--primary-color);">Solicitar Acceso</a>
+                    <a href="tel:947200735" class="btn" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid white;">947 20 07 35</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Nos encontramos</h3>
+                    <p>C/ Las Calzadas, 4 - 09004 (BURGOS)</p>
+                    <p>📞 947 20 07 35 / 🚨 689 56 91 71</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Horario de atención</h3>
+                    <p><strong>Lunes - Viernes</strong><br>10:00 - 14:00<br>17:00 - 19:30</p>
+                    <p><strong>Sábados</strong><br>10:00 - 14:00</p>
+                    <p><strong>Domingos</strong><br>Cerrado</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces útiles</h3>
+                    <a href="nuestros-servicios.html">Servicios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="politica-privacidad.html">Política de privacidad</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="#">📘</a>
+                        <a href="#">📷</a>
+                        <a href="#">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Clínica Veterinaria Fisac Ferrández. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
